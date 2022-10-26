@@ -7,6 +7,7 @@ import PropsDrilling from './PropsDrilling';
 import PropsNonDrilling from "./PropsNonDrilling";
 import LocalStorage from "./LocalStorage";
 import CustomHook from './CustomHook';
+import PureComponentContainer from './PureComponentContainer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/propsnondrilling' element={<PropsNonDrilling />} />
           <Route exact path="/localstorage" element={<LocalStorage />} />
           <Route exact path='/customhook' element={<CustomHook />} />
+          <Route exact path='/purecomponent' element={<PureComponentContainer />} />
         </Routes>
       </Router>
     </div>
